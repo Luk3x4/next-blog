@@ -59,7 +59,7 @@ const BlogInner: NextPage<any> = ({ blog }) => {
     }, [])
 
     return (
-        <div className="p-10 flex flex-col space-y-4 w-[60vw] mx-auto">
+        <div className="p-10 flex flex-col space-y-4 w-[60vw] md:w-full mx-auto">
             <Head>
                 <title>Blog {query.id}</title>
             </Head>
